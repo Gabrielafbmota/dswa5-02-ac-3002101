@@ -8,6 +8,7 @@ module.exports = function(){
     var controller = {}
     controller.listaContatos = function(req, res){
         res.json(contatos)
+        
     }
     controller.obtemContato = function(req,res){
         console.log('Selecionou o contato: ' + req.params.id)
